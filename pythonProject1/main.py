@@ -4,9 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 pd.options.display.float_format = '{:,.2f}'.format
 
-#TODO Im leaving this project as is for now. Come back with a fresh perspective and ideas.
-#TODO Current Ideas: Add CDF plots, and box plots for monte carlo, thats really it
-
 def plot_dcf_vs_oppcost():
 
     initiat_investment = int(initial_investment_entry.get())
