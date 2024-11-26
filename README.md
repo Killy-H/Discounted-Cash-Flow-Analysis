@@ -30,8 +30,14 @@ This project created in python was built on the concept of discounted cash flows
 
 ---
 
+## Example
+- **Potential Investment**: Say you're considering an investment of $100,000 that will last 15 periods with cash flows of $12,000 per period that will grow at 10% per period. The next best option may be a risk free interest rate of 5%. When this is plotted using the program created, we see the investment will outperform the risk free rate over the 15 periods. The NPV (Investment - Discount rate) = $134345.85
+- **Monte Carlo**: When we generate the monte carlo simulation for this investment, we see the NPV will be positive in about 71% of situations. In accounting, we are taught that a positive NPV means an investment makes sense. So monte carlo helps us analyze a range of possible outcomes to see the likelihood of different possibilities. 
+
+---
+
 ## How to Run the Project
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Killy-H/Discounted-Cash-Flow-Analysis-With-Monte-Carlo.git
-   cd Discounted-Cash-Flow-Analysis-With-Monte-Carlo
+   git clone https://github.com/Killy-H/Discounted-Cash-Flow-Analysis.git
+   cd Discounted-Cash-Flow-Analysis
